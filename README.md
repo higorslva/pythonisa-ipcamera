@@ -27,11 +27,16 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
 
 3. Configure as câmeras IP que deseja conectar ao servidor central, garantindo que os endereços IP, portas e credenciais estejam corretos.
 
-4. Execute o código:
+4. Execute o código na raspberry:
 
    ```
-   python cameraip.py
+   python rasp.py
    ```
+5. Execute o código no PC:
+
+   ```
+   python pc.py
+   ```   
 
 ## Licença
 
