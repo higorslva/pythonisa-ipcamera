@@ -1,6 +1,6 @@
 # Pythonisa - Câmeras IP
 
-Este repositório contém o código fonte utilizado no projeto Pythonisa para conexão de câmeras IP em um servidor central. O Pythonisa é um projeto vinculado ao CNPq para monitoramento de ônibus em Macapá.
+Este repositório contém o código fonte utilizado no projeto Pythonisa para conexão de câmeras IP e raspberry pi em um servidor central. O Pythonisa é um projeto vinculado ao CNPq para monitoramento de ônibus em Macapá.
 
 ## Funcionalidades
 
@@ -25,7 +25,7 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
    pip install -r requirements.txt
    ```
 
-3. Configure as câmeras IP que deseja conectar ao servidor central, garantindo que os endereços IP, portas e credenciais estejam corretos.
+3. Garanta que ambos estejam na mesma rede local. Altere o endereço IP no arquivo ```rasp.py```
 
 4. Execute o código na raspberry:
 
