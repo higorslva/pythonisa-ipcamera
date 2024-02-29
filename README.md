@@ -10,10 +10,12 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
 
 - Python 3.x
 - Biblioteca [OpenCV](https://pypi.org/project/opencv-python/)
+- Raspberry Pi com módulo de câmera
+- Raspiberry Pi OS
 
 ## Como Usar
 
-1. Clone este repositório em seu ambiente de desenvolvimento local:
+1. Clone este repositório em seu ambiente de desenvolvimento local (PC e Raspberry):
 
    ```
    git clone https://github.com/higorslva/pythonisa-ipcamera.git
@@ -27,7 +29,7 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
 
 3. Garanta que ambos estejam na mesma rede local. Altere o endereço IP no arquivo ```rasp.py```
 
-4. Execute o código na raspberry:
+4. Execute o código na Raspberry:
 
    ```
    python rasp.py
