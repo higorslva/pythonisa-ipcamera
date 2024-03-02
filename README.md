@@ -1,21 +1,25 @@
 # Pythonisa - Câmeras IP
 
-Este repositório contém o código fonte utilizado no projeto Pythonisa para conexão de câmeras IP e raspberry pi em um servidor central. O Pythonisa é um projeto vinculado ao CNPq para monitoramento de ônibus em Macapá.
+Este repositório contém o código fonte utilizado no projeto Pythonisa para conexão de uma Raspberry PI com módulo de câmera em um servidor central. O Pythonisa é um projeto vinculado ao CNPq para monitoramento de ônibus em Macapá.
 
 ## Funcionalidades
 
-- **Conexão de Câmeras IP**: O código incluído neste repositório permite estabelecer conexões com câmeras IP compatíveis, permitindo o acesso remoto às suas transmissões de vídeo (incluindo Raspberry Pi com módulo PiCamera).
+- **Conexão de Câmeras IP**: O código incluído neste repositório permite estabelecer conexões com uma Raspberry PI com módulo de câmera.
 
 ## Pré-requisitos
-
+#### Raspberry:
 - Python 3.x
-- Biblioteca [OpenCV](https://pypi.org/project/opencv-python/)
 - Raspberry Pi com módulo de câmera
 - Raspiberry Pi OS
 
+### PC:
+ - Python 3.x
+ - Biblioteca [OpenCV](https://pypi.org/project/opencv-python/)
+ - Biblioteca [Numpy](https://numpy.org/)
+
 ## Como Usar
 
-1. Clone este repositório em seu ambiente de desenvolvimento local (PC e Raspberry):
+1. Clone este repositório em seu ambiente de desenvolvimento local (No seu PC):
 
    ```
    git clone https://github.com/higorslva/pythonisa-ipcamera.git
@@ -28,6 +32,7 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
    ```
 
 3. Garanta que ambos estejam na mesma rede local. Altere o endereço IP no arquivo ```rasp.py```
+*PS: Apenas o arquivo ```rasp.py``` precisa estar na sua Raspberry. Você pode conectar com SSH e copiar e colar o código para lá.*
 
 4. Execute o código na Raspberry:
 
@@ -37,8 +42,8 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
 5. Execute o código no PC:
 
    ```
-   python pc.py
-   ```   
+   python main_camera.py
+   ```
 
 ## Licença
 
