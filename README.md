@@ -9,8 +9,10 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
 ## Pré-requisitos
 #### Raspberry:
 - Python 3.x
+- Biblioteca [OpenCV](https://pypi.org/project/opencv-python/)
+- Biblioteca [Numpy](https://numpy.org/)
 - Raspberry Pi com módulo de câmera
-- Raspiberry Pi OS
+- Raspberry Pi OS
 
 ### PC:
  - Python 3.x
