@@ -38,7 +38,7 @@ while True:
 
         color = COLORS[int(classid) % len(COLORS)]
 
-        label = f'{class_names[classid]} : {score}'
+        label = f'{class_names[classid]} : {score*100:.2f}%'
 
         cv2.rectangle(frame, box, color, 2)
 
