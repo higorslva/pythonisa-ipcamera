@@ -1,3 +1,4 @@
+import cv2
 import numpy as np
 import socket
 import time
@@ -11,7 +12,7 @@ with open("coco.names", "r") as f:
 # Configurações do servidor UDP
 host = '0.0.0.0'  # Escuta em todos os endereços disponíveis
 port = 12345  # Porta UDP
-buffer_size = 999999999  # Tamanho máximo de um pacote UDP
+buffer_size = 65507  # Tamanho máximo de um pacote UDP
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 sock.bind((host, port))
