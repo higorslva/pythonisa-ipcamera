@@ -12,7 +12,7 @@ Este repositório contém o código fonte utilizado no projeto Pythonisa para co
 - Biblioteca [OpenCV](https://pypi.org/project/opencv-python/)
 - Biblioteca [Numpy](https://numpy.org/)
 - Raspberry Pi com módulo de câmera
-- Raspberry Pi OS
+- Raspberry Pi OS (Legacy Bullseye)
 
 ### PC:
  - Python 3.x
