@@ -21,7 +21,7 @@ sock.bind((host, port))
 net = cv2.dnn.readNet("plates-yolov4-tiny-detector.weights", "plates-yolov4-tiny-detector.cfg")
 
 model = cv2.dnn_DetectionModel(net)
-model.setInputParams(size=(416, 416), scale=1/255)
+model.setInputParams(size=(1024, 768), scale=1/255)
 
 while True:
     data, _ = sock.recvfrom(65535)  # Recebe os dados do endereço da Raspberry Pi
@@ -33,7 +33,7 @@ while True:
         continue
 
     # Redimensionar o frame para as dimensões corretas
-    frame = cv2.resize(frame, (416, 416))
+    frame = cv2.resize(frame, (1024, 768))
 
     start = time.time()
 
